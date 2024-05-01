@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Head-to-Head Comparison</title>
+    <style>
+        .form{display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+        h1{text-align: center;}
+
+        .container{border: solid 2px rgb(31, 31, 31);
+        margin-left: 400px;
+        margin-right:400px ;
+        margin-top: 50px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        border-radius: 12px;
+        background-color: rgb(34, 93, 146);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 3px 2px 5px rgb(31, 31, 31);
+       
+    }
+    body{background-color: aliceblue;}
+
+        
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+    <h1>Head-to-Head Matchup </h1>
+    <div class="form">
+    <form action="/results" method="post">
+        <label for="player1">Player 1:</label>
+        <input type="text" id="player1" name="player1" required><br><br>
+        <label for="player2">Player 2:</label>
+        <input type="text" id="player2" name="player2" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</div>
+
+</body>
+</html>
